@@ -1,5 +1,5 @@
 import crypto from 'crypto'
 
 export default function (input) {
-  return crypto.createHash('md5').update(input).digest('hex')
+  return crypto.createHash('md5').update(input).digest('hex').substr(0, 9);
 }

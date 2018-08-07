@@ -1,12 +1,12 @@
 {
-  "name": "webpack-pwa-manifest",
+  "name": "darmody-webpack-pwa-manifest",
   "version": "3.6.3",
   "description": "Progressive Web Application (PWA) Manifest Generator",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arthurbergmz/webpack-pwa-manifest.git"
+    "url": "https://github.com/darmody/webpack-pwa-manifest.git"
   },
   "keywords": [
     "pwa",
@@ -26,7 +26,7 @@
     "clean": "rm -rf tests/*/output && rm -rf dist",
     "test": "npm run clean && npm run build && node tests/index.js"
   },
-  "author": "Arthur A. Bergamaschi <arthurbergmz@gmail.com>",
+  "author": "Darmody <eterlf41@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "css-color-names": "0.0.4",
